@@ -1,0 +1,15 @@
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\obj\x86\Release\LogManage.csprojResolveAssemblyReference.cache
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\obj\x86\Release\LogManage.Properties.Resources.resources
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\obj\x86\Release\LogManage.LogView.resources
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\obj\x86\Release\LogManage.WaitDlg.resources
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\obj\x86\Release\LogManage.csproj.GenerateResource.Cache
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\bin\Release\LogManage.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\bin\Release\LogManage.pdb
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\bin\Release\CtlDBAccess.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\bin\Release\LogInterface.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\bin\Release\ModuleCrossPnP.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\bin\Release\CtlDBAccess.pdb
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\bin\Release\ModuleCrossPnP.pdb
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\bin\Release\LogInterface.pdb
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\obj\x86\Release\LogManage.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\日志及记录\LogManage\obj\x86\Release\LogManage.pdb

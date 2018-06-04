@@ -1,0 +1,7 @@
+E:\workspace\zz\项目8\安驰\代码\AcEcams\基础框架\LicenceManager\bin\Release\LicenceManager.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\基础框架\LicenceManager\bin\Release\LicenceManager.pdb
+E:\workspace\zz\项目8\安驰\代码\AcEcams\基础框架\LicenceManager\obj\x86\Release\LicenceManager.csprojResolveAssemblyReference.cache
+E:\workspace\zz\项目8\安驰\代码\AcEcams\基础框架\LicenceManager\obj\x86\Release\LicenceManager.ActivativeFormView.resources
+E:\workspace\zz\项目8\安驰\代码\AcEcams\基础框架\LicenceManager\obj\x86\Release\LicenceManager.csproj.GenerateResource.Cache
+E:\workspace\zz\项目8\安驰\代码\AcEcams\基础框架\LicenceManager\obj\x86\Release\LicenceManager.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\基础框架\LicenceManager\obj\x86\Release\LicenceManager.pdb

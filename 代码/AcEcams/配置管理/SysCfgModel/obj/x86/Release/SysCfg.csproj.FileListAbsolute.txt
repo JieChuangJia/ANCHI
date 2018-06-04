@@ -1,0 +1,9 @@
+E:\workspace\zz\项目8\安驰\代码\AcEcams\配置管理\SysCfgModel\bin\Release\SysCfg.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\配置管理\SysCfgModel\bin\Release\SysCfg.pdb
+E:\workspace\zz\项目8\安驰\代码\AcEcams\配置管理\SysCfgModel\bin\Release\CtlDBAccess.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\配置管理\SysCfgModel\bin\Release\MesDBAccess.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\配置管理\SysCfgModel\bin\Release\CtlDBAccess.pdb
+E:\workspace\zz\项目8\安驰\代码\AcEcams\配置管理\SysCfgModel\bin\Release\MesDBAccess.pdb
+E:\workspace\zz\项目8\安驰\代码\AcEcams\配置管理\SysCfgModel\obj\x86\Release\SysCfg.csprojResolveAssemblyReference.cache
+E:\workspace\zz\项目8\安驰\代码\AcEcams\配置管理\SysCfgModel\obj\x86\Release\SysCfg.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\配置管理\SysCfgModel\obj\x86\Release\SysCfg.pdb

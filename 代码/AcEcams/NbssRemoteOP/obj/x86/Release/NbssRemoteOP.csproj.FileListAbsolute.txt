@@ -1,0 +1,5 @@
+E:\Workspace\zz\项目8\安驰\代码\AcEcams\NbssRemoteOP\obj\x86\Release\NbssRemoteOP.csprojResolveAssemblyReference.cache
+E:\Workspace\zz\项目8\安驰\代码\AcEcams\NbssRemoteOP\obj\x86\Release\NbssECAMS.LoginView2.resources
+E:\Workspace\zz\项目8\安驰\代码\AcEcams\NbssRemoteOP\obj\x86\Release\NbssECAMS.MainForm.resources
+E:\Workspace\zz\项目8\安驰\代码\AcEcams\NbssRemoteOP\obj\x86\Release\NbssRemoteOP.Properties.Resources.resources
+E:\Workspace\zz\项目8\安驰\代码\AcEcams\NbssRemoteOP\obj\x86\Release\NbssRemoteOP.csproj.GenerateResource.Cache

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SvcPowersys" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/ZZ/WCFPowerSys/SvcPowersys/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/ZZ/WCFPowerSys/SvcPowersys/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/ZZ/WCFPowerSys/SvcPowersys/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WCFPowerSys" />
+      <xsd:import schemaLocation="http://localhost:8733/ZZ/WCFPowerSys/SvcPowersys/?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAsrsPowerSvc_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_GetInterfaceVersion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInterfaceVersion" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_GetInterfaceVersion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInterfaceVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_IsAsrsCellReady_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsAsrsCellReady" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_IsAsrsCellReady_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsAsrsCellReadyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_PowerFillOk_InputMessage">
+    <wsdl:part name="parameters" element="tns:PowerFillOk" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_PowerFillOk_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PowerFillOkResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_CommitCheckResult_InputMessage">
+    <wsdl:part name="parameters" element="tns:CommitCheckResult" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_CommitCheckResult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CommitCheckResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_CellValidStatNotify_InputMessage">
+    <wsdl:part name="parameters" element="tns:CellValidStatNotify" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_CellValidStatNotify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CellValidStatNotifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_CellEmerDangerNotify_InputMessage">
+    <wsdl:part name="parameters" element="tns:CellEmerDangerNotify" />
+  </wsdl:message>
+  <wsdl:message name="IAsrsPowerSvc_CellEmerDangerNotify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CellEmerDangerNotifyResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAsrsPowerSvc">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAsrsPowerSvc/GetData" message="tns:IAsrsPowerSvc_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAsrsPowerSvc/GetDataResponse" message="tns:IAsrsPowerSvc_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAsrsPowerSvc/GetDataUsingDataContract" message="tns:IAsrsPowerSvc_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAsrsPowerSvc/GetDataUsingDataContractResponse" message="tns:IAsrsPowerSvc_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInterfaceVersion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAsrsPowerSvc/GetInterfaceVersion" message="tns:IAsrsPowerSvc_GetInterfaceVersion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAsrsPowerSvc/GetInterfaceVersionResponse" message="tns:IAsrsPowerSvc_GetInterfaceVersion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAsrsCellReady">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAsrsPowerSvc/IsAsrsCellReady" message="tns:IAsrsPowerSvc_IsAsrsCellReady_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAsrsPowerSvc/IsAsrsCellReadyResponse" message="tns:IAsrsPowerSvc_IsAsrsCellReady_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PowerFillOk">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAsrsPowerSvc/PowerFillOk" message="tns:IAsrsPowerSvc_PowerFillOk_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAsrsPowerSvc/PowerFillOkResponse" message="tns:IAsrsPowerSvc_PowerFillOk_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CommitCheckResult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAsrsPowerSvc/CommitCheckResult" message="tns:IAsrsPowerSvc_CommitCheckResult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAsrsPowerSvc/CommitCheckResultResponse" message="tns:IAsrsPowerSvc_CommitCheckResult_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CellValidStatNotify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAsrsPowerSvc/CellValidStatNotify" message="tns:IAsrsPowerSvc_CellValidStatNotify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAsrsPowerSvc/CellValidStatNotifyResponse" message="tns:IAsrsPowerSvc_CellValidStatNotify_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CellEmerDangerNotify">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAsrsPowerSvc/CellEmerDangerNotify" message="tns:IAsrsPowerSvc_CellEmerDangerNotify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAsrsPowerSvc/CellEmerDangerNotifyResponse" message="tns:IAsrsPowerSvc_CellEmerDangerNotify_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IAsrsPowerSvc" type="tns:IAsrsPowerSvc">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IAsrsPowerSvc/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IAsrsPowerSvc/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInterfaceVersion">
+      <soap:operation soapAction="http://tempuri.org/IAsrsPowerSvc/GetInterfaceVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAsrsCellReady">
+      <soap:operation soapAction="http://tempuri.org/IAsrsPowerSvc/IsAsrsCellReady" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PowerFillOk">
+      <soap:operation soapAction="http://tempuri.org/IAsrsPowerSvc/PowerFillOk" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommitCheckResult">
+      <soap:operation soapAction="http://tempuri.org/IAsrsPowerSvc/CommitCheckResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CellValidStatNotify">
+      <soap:operation soapAction="http://tempuri.org/IAsrsPowerSvc/CellValidStatNotify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CellEmerDangerNotify">
+      <soap:operation soapAction="http://tempuri.org/IAsrsPowerSvc/CellEmerDangerNotify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SvcPowersys">
+    <wsdl:port name="BasicHttpBinding_IAsrsPowerSvc" binding="tns:BasicHttpBinding_IAsrsPowerSvc">
+      <soap:address location="http://localhost:8733/ZZ/WCFPowerSys/SvcPowersys/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

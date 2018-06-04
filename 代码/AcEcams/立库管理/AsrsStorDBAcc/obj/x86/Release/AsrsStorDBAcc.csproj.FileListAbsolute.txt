@@ -1,0 +1,9 @@
+E:\workspace\zz\项目8\安驰\代码\AcEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsStorDBAcc.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsStorDBAcc.pdb
+E:\workspace\zz\项目8\安驰\代码\AcEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsInterface.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsModel.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsInterface.pdb
+E:\workspace\zz\项目8\安驰\代码\AcEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsModel.pdb
+E:\workspace\zz\项目8\安驰\代码\AcEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.csprojResolveAssemblyReference.cache
+E:\workspace\zz\项目8\安驰\代码\AcEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.dll
+E:\workspace\zz\项目8\安驰\代码\AcEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.pdb
