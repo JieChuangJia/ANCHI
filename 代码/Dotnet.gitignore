@@ -1,0 +1,7 @@
+#C#
+x86
+obj
+*.dll
+*.cache
+*.pdb
+*.exe
