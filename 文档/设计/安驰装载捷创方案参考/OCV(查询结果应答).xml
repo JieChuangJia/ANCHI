@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 说明：objectID代表OCV工位，flag:SEND代表发送，RESPONED代表应答， palletID:托盘ID-->
+<OcvQuery objectID="1" flag="RESPONED" palletID="E2003412012FFA0009F9DC2E">
+ <!-- 说明：flag：是否成功，OK代表成功，NG代表失败，捷创周期查询，有可能会在规定时间内检测未完成-->
+  <re flag="OK">检测是否完成提示信息</re>
+  
+  <!-- 检测结果，chanel：通道号，val：检测结果，1:合格，2：NG，3：需要补电-->
+  <BatteryCheck chanel="1" val="1"></BatteryCheck>
+  <BatteryCheck chanel="2" val="2"></BatteryCheck>
+  <BatteryCheck chanel="3" val="1"></BatteryCheck>
+  ...
+  <BatteryCheck chanel="36" val="3"></BatteryCheck>
+</OcvQuery>

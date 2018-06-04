@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 说明：objectID代表装载工位，1：一次装载，2：二次装载，
+flag:代表发送或应答标识，palletID:托盘ID -->
+<PalletFill objectID="1" flag="RESPOND" palletID="E2003412012FFA0009F9DC2E" >
+  <!-- 说明：flag：是否成功，OK代表成功，NG代表失败-->
+  <Re flag="OK">成功或失败提示信息</re>
+</PalletFill>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 说明：objectID代表装载工位，1：一次装载，2：二次装载，
+flag:SEND代表发送，RESPONED代表应答，palletID:托盘ID -->
+<PalletFill objectID="1" flag="SEND" palletID="E2003412012FFA0009F9DC2E">
+
+<!-- 说明：channel:通道号，id：电池条码-->
+  <Battery chanel="1" id="36ANCCB23140160n16A00116C3101000001"></Battery>
+  <Battery chanel="2" id="36ANCCB23140160n16A00116C3101000002"></Battery>
+  <Battery chanel="3" id="36ANCCB23140160n16A00116C3101000003"></Battery>
+  ...
+  <Battery chanel="36" id="36ANCCB23140160n16A00116C3101000036"></Battery>
+</PalletFill>

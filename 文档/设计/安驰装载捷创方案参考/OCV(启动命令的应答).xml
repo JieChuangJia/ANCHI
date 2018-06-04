@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 说明：objectID代表OCV工位编号，从1开始，flag:SEND代表发送，RESPONED代表应答， -->
+<OcvStart objectID="1" flag="RESPOND" >
+ <!-- 说明：flag：是否成功，OK代表成功，NG代表失败-->
+  <re flag="OK">成功启动</re>
+</OcvStart>

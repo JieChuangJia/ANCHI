@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 说明：objectID代表OCV工位，flag:SEND代表发送，RESPONED代表应答， -->
+<OcvStart objectID="1" flag="SEND" >
+</OcvStart>
