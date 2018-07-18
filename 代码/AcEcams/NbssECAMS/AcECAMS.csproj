@@ -146,14 +146,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\设备接口\设备及外部系统对接\DevAccess\DevAccess.csproj">
-      <Project>{c5f63c04-3b10-4fa9-96ca-226c4d405583}</Project>
-      <Name>DevAccess</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\..\设备接口\设备及外部系统对接\DevInterface\DevInterface.csproj">
-      <Project>{ae429508-4cb7-499e-88f0-c939496e7bea}</Project>
-      <Name>DevInterface</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CtlDBAccess\CtlDBAccess.csproj">
       <Project>{2180a519-31fe-4c19-8d39-a4dfec26cf9a}</Project>
       <Name>CtlDBAccess</Name>

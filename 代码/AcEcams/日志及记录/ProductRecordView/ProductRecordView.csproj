@@ -131,14 +131,6 @@
     <Folder Include="Presenter\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\设备接口\设备及外部系统对接\DevAccess\DevAccess.csproj">
-      <Project>{c5f63c04-3b10-4fa9-96ca-226c4d405583}</Project>
-      <Name>DevAccess</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\..\..\设备接口\设备及外部系统对接\DevInterface\DevInterface.csproj">
-      <Project>{ae429508-4cb7-499e-88f0-c939496e7bea}</Project>
-      <Name>DevInterface</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\MesDBAccess\MesDBAccess.csproj">
       <Project>{6861ee48-2c2c-4034-8930-181ebe48cc7a}</Project>
       <Name>MesDBAccess</Name>

@@ -238,14 +238,14 @@ namespace ProcessCtl
                                 batteryID = "";
                             }
                             
-                            if (batteryID.Length>22)
-                            {
-                                validBatNum++;
-                                if (batteryID.Length<35 && batteryID.Substring(16, 6).ToUpper() == "17K03C")
-                                {
-                                    batteryID = batteryID.Insert(22, "1");
-                                }
-                            }
+                            //if (batteryID.Length>22) //临时用，人工打错二维码，软件修补
+                            //{
+                            //    validBatNum++;
+                            //    if (batteryID.Length<35 && batteryID.Substring(16, 6).ToUpper() == "17K03C")
+                            //    {
+                            //        batteryID = batteryID.Insert(22, "1");
+                            //    }
+                            //}
                             batteryList.Add(batteryID);
                         }
                         if (validBatNum < 1)
